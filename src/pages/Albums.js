@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import useAxios from "./hooks/AxiosHook";
+import useAxios from "../hooks/AxiosHook";
 import LogoLoading from "../assets/giphy.gif";
 import LogoError from "../assets/error.gif";
 

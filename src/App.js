@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, useRoutes } from "react-router-dom";
-import Albums from "./components/Albums";
-import Dashboard from "./components/Dashboard";
-import Users from "./components/Users";
+import Albums from "./pages/Albums";
+import Dashboard from "./pages/Dashboard";
+import Users from "./pages/Users";
 
 const App = () => {
   let routes = useRoutes([
